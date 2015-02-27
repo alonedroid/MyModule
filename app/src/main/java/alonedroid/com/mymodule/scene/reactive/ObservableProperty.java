@@ -1,11 +1,8 @@
-package alonedroid.com.mymodule.scene.realm.reactive;
+package alonedroid.com.mymodule.scene.reactive;
 
 import rx.Observable;
 import rx.subjects.BehaviorSubject;
 
-/**
- * Copyright (c) 2014 Yahoo! JAPAN Corporation. All rights reserved.
- */
 public class ObservableProperty<T> {
 
     private BehaviorSubject<T> subject = BehaviorSubject.create();

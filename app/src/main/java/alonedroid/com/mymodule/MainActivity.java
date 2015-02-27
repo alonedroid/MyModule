@@ -1,5 +1,6 @@
 package alonedroid.com.mymodule;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -8,7 +9,9 @@ import android.view.View;
 import android.widget.Toast;
 
 import alonedroid.com.mymodule.scene.realm.User;
-import alonedroid.com.mymodule.scene.realm.reactive.ObservableProperty;
+import alonedroid.com.mymodule.scene.reactive.ObservableProperty;
+import alonedroid.com.mymodule.scene.volley_jackson.VolleyActivity;
+import hugo.weaving.DebugLog;
 import io.realm.Realm;
 import io.realm.RealmQuery;
 import io.realm.RealmResults;
@@ -23,6 +26,7 @@ public class MainActivity extends ActionBarActivity {
     final private CompositeSubscription compositeSubscription = new CompositeSubscription();
     private ObservableProperty<String> s = new ObservableProperty<>(new String());
 
+    @DebugLog
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -134,5 +138,9 @@ public class MainActivity extends ActionBarActivity {
 //        result.clear();
 
         realm.commitTransaction();
+    }
+
+    public void test3(View view) {
+        startActivity(new Intent(this, VolleyActivity.class));
     }
 }
