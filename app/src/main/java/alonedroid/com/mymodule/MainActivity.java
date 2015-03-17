@@ -1,15 +1,16 @@
 package alonedroid.com.mymodule;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import alonedroid.com.mymodule.scene.realm.User;
 import alonedroid.com.mymodule.scene.reactive.ObservableProperty;
+import alonedroid.com.mymodule.scene.realm.User;
 import alonedroid.com.mymodule.scene.volley_jackson.VolleyActivity;
 import hugo.weaving.DebugLog;
 import io.realm.Realm;
@@ -30,7 +31,6 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
 
         Observable<String> str = AndroidObservable.bindActivity(this, s.asObservable());
         this.compositeSubscription.add(str
@@ -46,6 +46,8 @@ public class MainActivity extends ActionBarActivity {
                         Toast.makeText(getApplicationContext(), o.toString(), Toast.LENGTH_SHORT).show();
                     }
                 }));
+
+        setContentView(R.layout.activity_main);
     }
 
     @Override
@@ -89,7 +91,7 @@ public class MainActivity extends ActionBarActivity {
 
         realm.commitTransaction();
 
-        s.set(System.currentTimeMillis()+"");
+        s.set(System.currentTimeMillis() + "");
     }
 
     public void test2(View view) {
@@ -114,16 +116,16 @@ public class MainActivity extends ActionBarActivity {
                         .findAll();
 
         // Asc
-        RealmResults<User> sortedAscending  = result.sort("age");
+        RealmResults<User> sortedAscending = result.sort("age");
 
 // Desc
         RealmResults<User> sortedDescending =
                 result.sort("age", RealmResults.SORT_ORDER_DECENDING);
 
-        Toast.makeText(this, result.get(0).getAge()+"", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, result.get(0).getAge() + "", Toast.LENGTH_SHORT).show();
     }
 
-    public void delete(){
+    public void delete() {
         // Obtain a Realm instance
         Realm realm = Realm.getInstance(this, "wasabeef.realm");
 
@@ -142,5 +144,15 @@ public class MainActivity extends ActionBarActivity {
 
     public void test3(View view) {
         startActivity(new Intent(this, VolleyActivity.class));
+    }
+
+    public void nextActivity(View view) {
+        try {
+            String tag = view.getTag().toString();
+            Intent intent = new Intent(this, Class.forName(getPackageName()+tag));
+            startActivity(intent);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 }

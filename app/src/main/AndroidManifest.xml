@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="alonedroid.com.mymodule" >
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:name=".MyApplication"
@@ -22,6 +22,10 @@
         <activity
             android:name=".scene.volley_jackson.VolleyActivity"
             android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".scene.gif_player.MyGifPlayer"
+            android:label="@string/title_activity_my_gif_player" >
         </activity>
     </application>
 
