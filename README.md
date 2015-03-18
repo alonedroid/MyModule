@@ -37,6 +37,16 @@ http://party-calendar.net/top/api/doc
 ぐるなびAPI
 http://api.gnavi.co.jp/api/
 <br>
-オシャレなデザイン参考
+お天気API
+http://weather.livedoor.com/weather_hacks/webservice
+<br>
+http://qiita.com/kubotaku1119/items/7e5eaa30fee0a25f70d0
+<br>
+
+h2.オシャレなデザイン参考
 http://androidniceties.tumblr.com/
 http://www.mobile-patterns.com/
+
+h2.フリー画像
+http://jp.freepik.com/
+http://www.flaticon.com/
