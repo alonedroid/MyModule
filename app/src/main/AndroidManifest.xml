@@ -11,7 +11,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivity_"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,10 +23,7 @@
             android:name=".scene.volley_jackson.VolleyActivity"
             android:label="@string/title_activity_main" >
         </activity>
-        <activity
-            android:name=".scene.gif_player.MyGifPlayer"
-            android:label="@string/title_activity_my_gif_player" >
-        </activity>
+        <activity android:name=".scene.gif_player.GifMainActivity" />
     </application>
 
 </manifest>

@@ -1,18 +1,18 @@
 package alonedroid.com.mymodule;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
-import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import org.androidannotations.annotations.AfterInject;
+import org.androidannotations.annotations.EActivity;
+
 import alonedroid.com.mymodule.scene.reactive.ObservableProperty;
 import alonedroid.com.mymodule.scene.realm.User;
 import alonedroid.com.mymodule.scene.volley_jackson.VolleyActivity;
-import hugo.weaving.DebugLog;
 import io.realm.Realm;
 import io.realm.RealmQuery;
 import io.realm.RealmResults;
@@ -22,16 +22,13 @@ import rx.functions.Action1;
 import rx.functions.Func1;
 import rx.subscriptions.CompositeSubscription;
 
-
+@EActivity(R.layout.activity_main)
 public class MainActivity extends ActionBarActivity {
     final private CompositeSubscription compositeSubscription = new CompositeSubscription();
     private ObservableProperty<String> s = new ObservableProperty<>(new String());
 
-    @DebugLog
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
+    @AfterInject
+    protected void onAfterInject() {
         Observable<String> str = AndroidObservable.bindActivity(this, s.asObservable());
         this.compositeSubscription.add(str
                 .map(new Func1<String, Object>() {
@@ -46,8 +43,6 @@ public class MainActivity extends ActionBarActivity {
                         Toast.makeText(getApplicationContext(), o.toString(), Toast.LENGTH_SHORT).show();
                     }
                 }));
-
-        setContentView(R.layout.activity_main);
     }
 
     @Override
@@ -149,7 +144,7 @@ public class MainActivity extends ActionBarActivity {
     public void nextActivity(View view) {
         try {
             String tag = view.getTag().toString();
-            Intent intent = new Intent(this, Class.forName(getPackageName()+tag));
+            Intent intent = new Intent(this, Class.forName(getPackageName() + tag));
             startActivity(intent);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

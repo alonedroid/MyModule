@@ -39,7 +39,7 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@android:drawable/ic_dialog_dialer"
-        android:tag=".scene.gif_player.MyGifPlayer"
+        android:tag=".scene.gif_player.GifMainActivity"
         android:onClick="nextActivity"
         android:clickable="true"
         />
