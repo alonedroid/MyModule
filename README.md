@@ -1,5 +1,5 @@
 # MyModule
-使ってみたい
+## 使ってみたい
 <br>
 通信処理が簡単に書ける
 https://github.com/square/retrofit
@@ -43,10 +43,12 @@ http://weather.livedoor.com/weather_hacks/webservice
 http://qiita.com/kubotaku1119/items/7e5eaa30fee0a25f70d0
 <br>
 
-h2.オシャレなデザイン参考
+## オシャレなデザイン参考
+<br>
 http://androidniceties.tumblr.com/
 http://www.mobile-patterns.com/
 
-h2.フリー画像
+## フリー画像
+<br>
 http://jp.freepik.com/
 http://www.flaticon.com/
