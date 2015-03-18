@@ -40,7 +40,7 @@ public class VolleyActivity extends ActionBarActivity {
                 "http://weather.livedoor.com/forecast/webservice/json/v1?city=130010";
 
         mQueue = Volley.newRequestQueue(this);
-        mQueue.add(new JsonObjectRequest(Request.Method.GET, url, null,
+        mQueue.add(new JsonObjectRequest(Request.Method.GET, url, (JSONObject) null,
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
