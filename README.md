@@ -1,6 +1,5 @@
 # MyModule
 ## 使ってみたい
-<br>
 通信処理が簡単に書ける
 https://github.com/square/retrofit
 <br>
@@ -44,11 +43,25 @@ http://qiita.com/kubotaku1119/items/7e5eaa30fee0a25f70d0
 <br>
 
 ## オシャレなデザイン参考
-<br>
 http://androidniceties.tumblr.com/
+<br>
 http://www.mobile-patterns.com/
+<br>
+http://www.materialup.com/posts/c/inspiration
 
 ## フリー画像
-<br>
 http://jp.freepik.com/
+<br>
 http://www.flaticon.com/
+<br>
+http://google.github.io/material-design-icons/
+<br>
+http://www.google.com/design/spec/resources/sticker-sheets-icons.html#
+
+
+## 使ってみた
+https://github.com/sbakhtiarov/gif-movie-view
+
+## デザインツール
+マテリアルカラー
+http://www.materialui.co/colors
