@@ -41,6 +41,9 @@ http://weather.livedoor.com/weather_hacks/webservice
 <br>
 http://qiita.com/kubotaku1119/items/7e5eaa30fee0a25f70d0
 <br>
+位置情報
+https://developers.google.com/places/documentation/?hl=ja
+<br>
 
 ## オシャレなデザイン参考
 http://androidniceties.tumblr.com/
