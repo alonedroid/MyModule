@@ -44,6 +44,9 @@ http://qiita.com/kubotaku1119/items/7e5eaa30fee0a25f70d0
 位置情報
 https://developers.google.com/places/documentation/?hl=ja
 <br>
+メモリリーク回避
+http://qiita.com/rejasupotaro/items/4a8cfe0abda2d83145dd
+<br>
 
 ## オシャレなデザイン参考
 http://androidniceties.tumblr.com/
