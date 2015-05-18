@@ -47,6 +47,9 @@ https://developers.google.com/places/documentation/?hl=ja
 メモリリーク回避
 http://qiita.com/rejasupotaro/items/4a8cfe0abda2d83145dd
 <br>
+LinkData
+http://ja.linkdata.org/
+<br>
 
 ## オシャレなデザイン参考
 http://androidniceties.tumblr.com/
