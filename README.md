@@ -74,3 +74,7 @@ https://github.com/sbakhtiarov/gif-movie-view
 ## デザインツール
 マテリアルカラー
 http://www.materialui.co/colors
+
+## 参考
+selector xml
+http://qiita.com/suzukihr/items/f52e3ed9a196afa463f7
