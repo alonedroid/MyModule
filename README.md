@@ -78,3 +78,10 @@ http://www.materialui.co/colors
 ## 参考
 selector xml
 http://qiita.com/suzukihr/items/f52e3ed9a196afa463f7
+
+## その他利用サイト
+一括アプリレビュー申請　http://applis.ne.jp/
+<br>
+AD表示　http://www.astrsk.net/
+<br>
+AD表示　http://nend.net/
