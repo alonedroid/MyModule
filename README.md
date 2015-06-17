@@ -50,6 +50,7 @@ http://qiita.com/rejasupotaro/items/4a8cfe0abda2d83145dd
 LinkData
 http://ja.linkdata.org/
 <br>
+* ContentProvider http://qiita.com/rayc5/items/1457331992e1eb02b29f
 
 ## オシャレなデザイン参考
 http://androidniceties.tumblr.com/
