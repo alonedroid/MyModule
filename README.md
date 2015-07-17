@@ -47,10 +47,9 @@ https://developers.google.com/places/documentation/?hl=ja
 メモリリーク回避
 http://qiita.com/rejasupotaro/items/4a8cfe0abda2d83145dd
 <br>
-LinkData
-http://ja.linkdata.org/
-<br>
+* LinkData http://ja.linkdata.org/
 * ContentProvider http://qiita.com/rayc5/items/1457331992e1eb02b29f
+* ペライチ https://peraichi.com/
 
 ## オシャレなデザイン参考
 http://androidniceties.tumblr.com/
