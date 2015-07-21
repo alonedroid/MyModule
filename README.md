@@ -44,9 +44,8 @@ http://qiita.com/kubotaku1119/items/7e5eaa30fee0a25f70d0
 位置情報
 https://developers.google.com/places/documentation/?hl=ja
 <br>
-メモリリーク回避
-http://qiita.com/rejasupotaro/items/4a8cfe0abda2d83145dd
-<br>
+* ButterKnife https://github.com/JakeWharton/u2020
+* メモリリーク回避 http://qiita.com/rejasupotaro/items/4a8cfe0abda2d83145dd
 * LinkData http://ja.linkdata.org/
 * ContentProvider http://qiita.com/rayc5/items/1457331992e1eb02b29f
 * ペライチ https://peraichi.com/
