@@ -22,6 +22,7 @@
 * ペライチ https://peraichi.com/
 * mBaaS http://mb.cloud.nifty.com/price.htm
 * sketch用フリー素材 http://www.sketchappsources.com/
+* instagram https://syncer.jp/instagram-api-matome
 
 ## オシャレなデザイン参考
 http://androidniceties.tumblr.com/
