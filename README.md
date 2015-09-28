@@ -46,8 +46,8 @@ http://www.google.com/design/spec/resources/sticker-sheets-icons.html#
 https://github.com/sbakhtiarov/gif-movie-view
 
 ## デザインツール
-マテリアルカラー
-http://www.materialui.co/colors
+* マテリアルカラー http://www.materialui.co/colors
+* https://ferret-plus.com/2330
 
 ## 参考
 selector xml
