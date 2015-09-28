@@ -26,11 +26,11 @@
 * jsonconverter http://qiita.com/kazutoyo/items/b3e9a1f868ec63a7ba5a
 
 ## オシャレなデザイン参考
-http://androidniceties.tumblr.com/
-<br>
-http://www.mobile-patterns.com/
-<br>
-http://www.materialup.com/posts/c/inspiration
+* http://androidniceties.tumblr.com/
+* http://www.mobile-patterns.com/
+* http://www.materialup.com/posts/c/inspiration
+* http://design.tutsplus.com/tutorials/create-a-dimensional-raindrop-desktop-wallpaper-illustration-in-adobe-illustrator--cms-22904
+* http://design.tutsplus.com/tutorials/how-to-create-a-detailed-lighthouse-flat-icon-in-affinity-designer--cms-24100
 
 ## フリー画像
 http://jp.freepik.com/
