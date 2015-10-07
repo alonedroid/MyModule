@@ -3,6 +3,9 @@ package alonedroid.com.mymodule;
 import android.app.Application;
 import android.util.Log;
 
+import org.androidannotations.annotations.EApplication;
+
+@EApplication
 public class MyApplication extends Application {
     private final String TAG = "DEBUG-APPLICATION";
 
@@ -18,4 +21,7 @@ public class MyApplication extends Application {
         Log.v(TAG, "--- onTerminate() in ---");
     }
 
+    public void log(String str) {
+        Log.d("MyModule", "log:" + str);
+    }
 }

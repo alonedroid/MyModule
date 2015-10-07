@@ -10,6 +10,8 @@ import android.widget.Toast;
 import org.androidannotations.annotations.AfterInject;
 import org.androidannotations.annotations.EActivity;
 
+import alonedroid.com.mymodule.scene.custom_view.CustomViewActivity;
+import alonedroid.com.mymodule.scene.custom_view.CustomViewActivity_;
 import alonedroid.com.mymodule.scene.reactive.ObservableProperty;
 import alonedroid.com.mymodule.scene.realm.User;
 import alonedroid.com.mymodule.scene.volley_jackson.VolleyActivity;
@@ -139,6 +141,11 @@ public class MainActivity extends ActionBarActivity {
 
     public void test3(View view) {
         startActivity(new Intent(this, VolleyActivity.class));
+        view.setOnClickListener(this::nextActivity);
+    }
+
+    public void test4(View view) {
+        startActivity(new Intent(this, CustomViewActivity_.class));
     }
 
     public void nextActivity(View view) {

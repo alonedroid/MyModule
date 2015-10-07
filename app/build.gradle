@@ -5,12 +5,14 @@ buildscript {
     dependencies {
         classpath 'com.neenbedankt.gradle.plugins:android-apt:1.4+'
         classpath 'com.jakewharton.hugo:hugo-plugin:1.2.1'
+        classpath 'me.tatarka:gradle-retrolambda:2.5+'
     }
 }
 
 apply plugin: 'com.android.application'
 apply plugin: 'android-apt'
 apply plugin: 'com.jakewharton.hugo'
+apply plugin: 'me.tatarka.retrolambda'
 
 android {
     compileSdkVersion 21
@@ -28,6 +30,10 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 
