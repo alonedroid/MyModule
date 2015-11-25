@@ -25,6 +25,7 @@
 * instagram https://syncer.jp/instagram-api-matome
 * jsonconverter http://qiita.com/kazutoyo/items/b3e9a1f868ec63a7ba5a
 * TensorFlow
+* flurry https://developer.yahoo.com/
 
 ## オシャレなデザイン参考
 * http://androidniceties.tumblr.com/
