@@ -63,3 +63,6 @@ REST通信 http://blog.yohei.org/android-androidannotations-06-rest/
 AD表示　http://www.astrsk.net/
 <br>
 AD表示　http://nend.net/
+
+## ライブラリ作る
+* http://qiita.com/kgmyshin/items/87f560172c31c2fbd899
