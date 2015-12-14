@@ -48,7 +48,8 @@ http://www.google.com/design/spec/resources/sticker-sheets-icons.html#
 
 
 ## 使ってみた
-https://github.com/sbakhtiarov/gif-movie-view
+* https://github.com/sbakhtiarov/gif-movie-view
+* Realm http://qiita.com/takke/items/8f7ca95d35e6f942eba2
 
 ## デザインツール
 * マテリアルカラー http://www.materialui.co/colors
