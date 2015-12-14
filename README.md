@@ -26,6 +26,8 @@
 * jsonconverter http://qiita.com/kazutoyo/items/b3e9a1f868ec63a7ba5a
 * TensorFlow
 * flurry https://developer.yahoo.com/
+* カスタムフォント http://seesaakyoto.seesaa.net/article/389759682.html
+* カスタムフォント http://qiita.com/suzukihr/items/e1c0791e8047d5a7e165
 
 ## オシャレなデザイン参考
 * http://androidniceties.tumblr.com/
@@ -58,11 +60,9 @@ http://qiita.com/suzukihr/items/f52e3ed9a196afa463f7
 REST通信 http://blog.yohei.org/android-androidannotations-06-rest/
 
 ## その他利用サイト
-一括アプリレビュー申請　http://applis.ne.jp/
-<br>
-AD表示　http://www.astrsk.net/
-<br>
-AD表示　http://nend.net/
+* http://qiita.com/kimihiro_n/items/ab9589508aa03e0260f5
+* AD表示　http://www.astrsk.net/
+* AD表示　http://nend.net/
 
 ## ライブラリ作る
 * http://qiita.com/kgmyshin/items/87f560172c31c2fbd899
