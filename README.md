@@ -29,6 +29,7 @@
 * カスタムフォント http://seesaakyoto.seesaa.net/article/389759682.html
 * カスタムフォント http://qiita.com/suzukihr/items/e1c0791e8047d5a7e165
 * アプリの使い易さに関する改善案を提案するアプリ http://juggly.cn/archives/181988.html
+* VIEWからBitmapを生成 http://qiita.com/kobakei/items/229d0ef78148dce9d84b
 
 ## オシャレなデザイン参考
 * http://androidniceties.tumblr.com/
