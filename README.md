@@ -38,6 +38,7 @@
 * http://design.tutsplus.com/tutorials/create-a-dimensional-raindrop-desktop-wallpaper-illustration-in-adobe-illustrator--cms-22904
 * http://design.tutsplus.com/tutorials/how-to-create-a-detailed-lighthouse-flat-icon-in-affinity-designer--cms-24100
 * http://uimovement.com/
+* http://qiita.com/phicdy/items/a8c9b9f93192bd5efd71
 
 ## フリー画像
 http://jp.freepik.com/
