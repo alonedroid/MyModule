@@ -30,7 +30,7 @@
 * カスタムフォント http://qiita.com/suzukihr/items/e1c0791e8047d5a7e165
 * アプリの使い易さに関する改善案を提案するアプリ http://juggly.cn/archives/181988.html
 * VIEWからBitmapを生成 http://qiita.com/kobakei/items/229d0ef78148dce9d84b
-* RESUS https://resas.go.jp/#/13/13101
+* RESUS https://resas.go.jp/#/13/13101 - http://data.e-stat.go.jp/dashboard/
 
 ## オシャレなデザイン参考
 * http://androidniceties.tumblr.com/
