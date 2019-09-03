@@ -57,6 +57,7 @@ http://www.google.com/design/spec/resources/sticker-sheets-icons.html#
 
 ## デザインツール
 * マテリアルカラー http://www.materialui.co/colors
+* マテリアルカラーツール https://qiita.com/hideaki_sago/items/ccf0b46563f903e61df0
 * https://ferret-plus.com/2330
 * 0to255 http://www.0to255.com/
 * 配色サンプル http://www.hp-stylelink.com/news/2013/07/20130708.php
